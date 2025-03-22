@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Cron HTTP Auth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-15 20:06+0000\n"
+"POT-Creation-Date: 2025-03-22 18:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -14,15 +14,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
 
-#: wp-cron-http-auth.php:289
+#: wp-cron-http-auth.php:288
 msgid " or higher, and has been deactivated! "
 msgstr ""
 
-#: wp-cron-http-auth.php:233
+#: wp-cron-http-auth.php:232
 msgid "Click here to rate and review this plugin on WordPress.org"
 msgstr ""
 
-#: wp-cron-http-auth.php:188
+#: wp-cron-http-auth.php:187
 msgid "Donate via PayPal, credit card, or cryptocurrency"
 msgstr ""
 
@@ -30,15 +30,15 @@ msgstr ""
 msgid "Enable WP Cron on sites using HTTP Authentication"
 msgstr ""
 
-#: wp-cron-http-auth.php:228
+#: wp-cron-http-auth.php:227
 msgid "Homepage"
 msgstr ""
 
-#: wp-cron-http-auth.php:95
+#: wp-cron-http-auth.php:94
 msgid "HTTP Auth Password"
 msgstr ""
 
-#: wp-cron-http-auth.php:94
+#: wp-cron-http-auth.php:93
 msgid "HTTP Auth Username"
 msgstr ""
 
@@ -54,77 +54,77 @@ msgstr ""
 msgid "Jeff Starr"
 msgstr ""
 
-#: wp-cron-http-auth.php:252
+#: wp-cron-http-auth.php:251
 msgid "Like this plugin? Give it a"
 msgstr ""
 
-#: wp-cron-http-auth.php:178
+#: wp-cron-http-auth.php:177
 msgid "Please give a 5-star rating! A huge THANK YOU for your support!"
 msgstr ""
 
-#: wp-cron-http-auth.php:290
+#: wp-cron-http-auth.php:289
 msgid "Please return to the"
 msgstr ""
 
-#: wp-cron-http-auth.php:227
+#: wp-cron-http-auth.php:226
 msgid "Plugin Homepage"
 msgstr ""
 
-#: wp-cron-http-auth.php:92
+#: wp-cron-http-auth.php:91
 msgid "Plugin Usage"
 msgstr ""
 
-#: wp-cron-http-auth.php:96
+#: wp-cron-http-auth.php:95
 msgid "Rate Plugin"
 msgstr ""
 
-#: wp-cron-http-auth.php:234
+#: wp-cron-http-auth.php:233
 msgid "Rate this plugin"
 msgstr ""
 
-#: wp-cron-http-auth.php:288
+#: wp-cron-http-auth.php:287
 msgid "requires WordPress "
 msgstr ""
 
-#: wp-cron-http-auth.php:212
+#: wp-cron-http-auth.php:211
 msgid "Settings"
 msgstr ""
 
-#: wp-cron-http-auth.php:97
+#: wp-cron-http-auth.php:96
 msgid "Show Support"
 msgstr ""
 
-#: wp-cron-http-auth.php:96 wp-cron-http-auth.php:179
+#: wp-cron-http-auth.php:95 wp-cron-http-auth.php:178
 msgid "Show support with a 5-star rating&nbsp;&raquo;"
 msgstr ""
 
-#: wp-cron-http-auth.php:97 wp-cron-http-auth.php:189
+#: wp-cron-http-auth.php:96 wp-cron-http-auth.php:188
 msgid "Show support with a small donation&nbsp;&raquo;"
 msgstr ""
 
-#: wp-cron-http-auth.php:351 wp-cron-http-auth.php:357
+#: wp-cron-http-auth.php:344 wp-cron-http-auth.php:350
 msgid "Sorry, pal!"
 msgstr ""
 
-#: wp-cron-http-auth.php:122
+#: wp-cron-http-auth.php:121
 msgid ""
 "This plugin enables WP Cron on sites using HTTP Authentication. Enter your "
 "HTTP Auth credentials, save changes, and done."
 msgstr ""
 
-#: wp-cron-http-auth.php:291
+#: wp-cron-http-auth.php:290
 msgid "to upgrade WordPress and try again."
 msgstr ""
 
-#: wp-cron-http-auth.php:291
+#: wp-cron-http-auth.php:290
 msgid "WP Admin Area"
 msgstr ""
 
 #. Name of the plugin
-#: wp-cron-http-auth.php:64 wp-cron-http-auth.php:81 wp-cron-http-auth.php:82
+#: wp-cron-http-auth.php:80 wp-cron-http-auth.php:81
 msgid "WP Cron HTTP Auth"
 msgstr ""
 
-#: wp-cron-http-auth.php:256
+#: wp-cron-http-auth.php:255
 msgid "★★★★★ rating&nbsp;&raquo;"
 msgstr ""
