@@ -9,9 +9,9 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.7
-	Tested up to: 6.8
-	Stable tag: 3.2
-	Version:    3.2
+	Tested up to: 6.9
+	Stable tag: 3.4
+	Version:    3.4
 	Requires PHP: 5.6.20
 	Text Domain: wp-cron-http-auth
 	Domain Path: /languages
@@ -30,7 +30,7 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2025 Monzilla Media. All rights reserved.
+	Copyright 2018-2026 Monzilla Media. All rights reserved.
 	
 */
 
@@ -51,13 +51,14 @@ if (!class_exists('WPCron_HTTPAuth')) {
 			add_filter('plugin_action_links', array($this, 'action_links'), 10, 2);
 			add_filter('plugin_row_meta',     array($this, 'plugin_links'), 10, 2);
 			add_filter('admin_footer_text',   array($this, 'footer_text'),  10, 1);
+			add_action('init',                array($this, 'load_i18n'));
 			
 			add_filter('cron_request',        array($this, 'wp_cron_http_auth'));
 		} 
 		
 		function constants() {
 			
-			if (!defined('WPCRONHTTPAUTH_VERSION')) define('WPCRONHTTPAUTH_VERSION', '3.2');
+			if (!defined('WPCRONHTTPAUTH_VERSION')) define('WPCRONHTTPAUTH_VERSION', '3.4');
 			if (!defined('WPCRONHTTPAUTH_REQUIRE')) define('WPCRONHTTPAUTH_REQUIRE', '4.7');
 			if (!defined('WPCRONHTTPAUTH_AUTHOR'))  define('WPCRONHTTPAUTH_AUTHOR',  'Jeff Starr');
 			if (!defined('WPCRONHTTPAUTH_NAME'))    define('WPCRONHTTPAUTH_NAME',    'WP Cron HTTP Auth');
@@ -336,6 +337,12 @@ if (!class_exists('WPCron_HTTPAuth')) {
 			if (defined('WP_CRON_HTTP_AUTH_PASSWORD') && !empty('WP_CRON_HTTP_AUTH_PASSWORD')) $auth_password = WP_CRON_HTTP_AUTH_PASSWORD;
 			
 			return array('auth_username' => $auth_username, 'auth_password' => $auth_password);
+			
+		}
+		
+		function load_i18n() {
+			
+			load_plugin_textdomain('wp-cron-http-auth', false, dirname(WPCRONHTTPAUTH_FILE) .'/languages/');
 			
 		}
 		
