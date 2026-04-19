@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
 Tested up to: 7.0
-Stable tag: 3.4
-Version:    3.4
+Stable tag: 3.5
+Version:    3.5
 Requires PHP: 5.6.20
 Text Domain: wp-cron-http-auth
 Domain Path: /languages
@@ -58,6 +58,7 @@ And/or purchase one of my premium WordPress plugins:
 * [Banhammer Pro](https://plugin-planet.com/banhammer-pro/) - Monitor traffic and ban the bad guys
 * [GA Google Analytics Pro](https://plugin-planet.com/ga-google-analytics-pro/) - Connect WordPress to Google Analytics
 * [Head Meta Pro](https://plugin-planet.com/head-meta-pro/) - Ultimate Meta Tags for WordPress
+* [REST Pro Tools](https://plugin-planet.com/rest-pro-tools/) - Awesome tools for managing the WP REST API
 * [Simple Ajax Chat Pro](https://plugin-planet.com/simple-ajax-chat-pro/) - Unlimited chat rooms
 * [USP Pro](https://plugin-planet.com/usp-pro/) - Unlimited front-end forms
 
@@ -146,11 +147,11 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 If you like WP Cron HTTP Auth, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/wp-cron-http-auth/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
 
-**3.4 (2026/02/03)**
+**3.5 (2026/04/19)**
 
 * Improves readme.txt documentation
 * Tests on PHP 8.4 and 8.5
-* Tests on WordPress 6.9
+* Tests on WordPress 7.0
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/wp-cron-http-auth.txt](https://plugin-planet.com/wp/changelog/wp-cron-http-auth.txt)

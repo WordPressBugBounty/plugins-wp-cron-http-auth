@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 7.0
-	Stable tag: 3.4
-	Version:    3.4
+	Stable tag: 3.5
+	Version:    3.5
 	Requires PHP: 5.6.20
 	Text Domain: wp-cron-http-auth
 	Domain Path: /languages
@@ -58,7 +58,7 @@ if (!class_exists('WPCron_HTTPAuth')) {
 		
 		function constants() {
 			
-			if (!defined('WPCRONHTTPAUTH_VERSION')) define('WPCRONHTTPAUTH_VERSION', '3.4');
+			if (!defined('WPCRONHTTPAUTH_VERSION')) define('WPCRONHTTPAUTH_VERSION', '3.5');
 			if (!defined('WPCRONHTTPAUTH_REQUIRE')) define('WPCRONHTTPAUTH_REQUIRE', '4.7');
 			if (!defined('WPCRONHTTPAUTH_AUTHOR'))  define('WPCRONHTTPAUTH_AUTHOR',  'Jeff Starr');
 			if (!defined('WPCRONHTTPAUTH_NAME'))    define('WPCRONHTTPAUTH_NAME',    'WP Cron HTTP Auth');
@@ -230,7 +230,7 @@ if (!class_exists('WPCron_HTTPAuth')) {
 				$links[] = '<a target="_blank" rel="noopener noreferrer" href="'. $home_href .'" title="'. $home_title .'">'. $home_text .'</a>';
 				
 				$rate_href  = 'https://wordpress.org/support/plugin/'. WPCRONHTTPAUTH_SLUG .'/reviews/?rate=5#new-post';
-				$rate_title = esc_attr__('Click here to rate and review this plugin on WordPress.org', 'wp-cron-http-auth');
+				$rate_title = esc_attr__('Click here to rate and review this plugin at WordPress.org', 'wp-cron-http-auth');
 				$rate_text  = esc_html__('Rate this plugin', 'wp-cron-http-auth') .'&nbsp;&raquo;';
 				
 				$links[] = '<a target="_blank" rel="noopener noreferrer" href="'. $rate_href .'" title="'. $rate_title .'">'. $rate_text .'</a>';
@@ -286,9 +286,9 @@ if (!class_exists('WPCron_HTTPAuth')) {
 						deactivate_plugins(WPCRONHTTPAUTH_FILE);
 						
 						$msg  = '<strong>'. WPCRONHTTPAUTH_NAME .'</strong> '. esc_html__('requires WordPress ', 'wp-cron-http-auth') . WPCRONHTTPAUTH_REQUIRE;
-						$msg .= esc_html__(' or higher, and has been deactivated! ', 'wp-cron-http-auth');
-						$msg .= esc_html__('Please return to the', 'wp-cron-http-auth') .' <a href="'. admin_url() .'">';
-						$msg .= esc_html__('WP Admin Area', 'wp-cron-http-auth') .'</a> '. esc_html__('to upgrade WordPress and try again.', 'wp-cron-http-auth');
+						$msg .= esc_html__(' or higher, and has been deactivated. ', 'wp-cron-http-auth');
+						$msg .= esc_html__('Please return to the', 'wp-cron-http-auth') .' <a href="'. admin_url('plugins.php') .'">';
+						$msg .= esc_html__('WordPress Admin Area', 'wp-cron-http-auth') .'</a> '. esc_html__('to upgrade WordPress and try again.', 'wp-cron-http-auth');
 						
 						wp_die($msg);
 						
