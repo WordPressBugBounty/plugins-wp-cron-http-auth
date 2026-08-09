@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
-Tested up to: 7.0
-Stable tag: 3.5
-Version:    3.5
+Tested up to: 7.1
+Stable tag: 3.6
+Version:    3.6
 Requires PHP: 5.6.20
 Text Domain: wp-cron-http-auth
 Domain Path: /languages
@@ -146,6 +146,11 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 
 If you like WP Cron HTTP Auth, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/wp-cron-http-auth/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
+
+**3.6 (2026/08/09)**
+
+* Updates plugin settings page
+* Tests on WordPress 7.1
 
 **3.5 (2026/04/19)**
 

@@ -9,9 +9,9 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.7
-	Tested up to: 7.0
-	Stable tag: 3.5
-	Version:    3.5
+	Tested up to: 7.1
+	Stable tag: 3.6
+	Version:    3.6
 	Requires PHP: 5.6.20
 	Text Domain: wp-cron-http-auth
 	Domain Path: /languages
@@ -58,7 +58,7 @@ if (!class_exists('WPCron_HTTPAuth')) {
 		
 		function constants() {
 			
-			if (!defined('WPCRONHTTPAUTH_VERSION')) define('WPCRONHTTPAUTH_VERSION', '3.5');
+			if (!defined('WPCRONHTTPAUTH_VERSION')) define('WPCRONHTTPAUTH_VERSION', '3.6');
 			if (!defined('WPCRONHTTPAUTH_REQUIRE')) define('WPCRONHTTPAUTH_REQUIRE', '4.7');
 			if (!defined('WPCRONHTTPAUTH_AUTHOR'))  define('WPCRONHTTPAUTH_AUTHOR',  'Jeff Starr');
 			if (!defined('WPCRONHTTPAUTH_NAME'))    define('WPCRONHTTPAUTH_NAME',    'WP Cron HTTP Auth');
